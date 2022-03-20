@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		CC18C28027E635B2003E8F3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC18C27F27E635B2003E8F3F /* AppDelegate.swift */; };
-		CC18C28227E635B2003E8F3F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CC18C28127E635B2003E8F3F /* GameScene.sks */; };
-		CC18C28427E635B2003E8F3F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CC18C28327E635B2003E8F3F /* Actions.sks */; };
-		CC18C28627E635B2003E8F3F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC18C28527E635B2003E8F3F /* GameScene.swift */; };
-		CC18C28827E635B2003E8F3F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC18C28727E635B2003E8F3F /* GameViewController.swift */; };
 		CC18C28B27E635B2003E8F3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC18C28927E635B2003E8F3F /* Main.storyboard */; };
 		CC18C28D27E635B5003E8F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC18C28C27E635B5003E8F3F /* Assets.xcassets */; };
 		CC18C29027E635B5003E8F3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC18C28E27E635B5003E8F3F /* LaunchScreen.storyboard */; };
 		CC18C29A27E635B5003E8F3F /* ToyRobotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC18C29927E635B5003E8F3F /* ToyRobotTests.swift */; };
 		CC18C2A427E635B5003E8F3F /* ToyRobotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC18C2A327E635B5003E8F3F /* ToyRobotUITests.swift */; };
 		CC18C2A627E635B5003E8F3F /* ToyRobotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC18C2A527E635B5003E8F3F /* ToyRobotUITestsLaunchTests.swift */; };
+		CC18C2C327E63FEC003E8F3F /* Global.Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC18C2C227E63FEC003E8F3F /* Global.Enums.swift */; };
+		CC18C2C827E6C197003E8F3F /* ToyRobotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC18C2C727E6C197003E8F3F /* ToyRobotView.swift */; };
+		CC18C2CA27E6D1E2003E8F3F /* ToyRobotControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC18C2C927E6D1E2003E8F3F /* ToyRobotControler.swift */; };
+		CC18C2CC27E6EB4C003E8F3F /* BoardLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC18C2CB27E6EB4C003E8F3F /* BoardLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +40,6 @@
 /* Begin PBXFileReference section */
 		CC18C27C27E635B2003E8F3F /* ToyRobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToyRobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC18C27F27E635B2003E8F3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC18C28127E635B2003E8F3F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		CC18C28327E635B2003E8F3F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		CC18C28527E635B2003E8F3F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		CC18C28727E635B2003E8F3F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		CC18C28A27E635B2003E8F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC18C28C27E635B5003E8F3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC18C28F27E635B5003E8F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +48,11 @@
 		CC18C29F27E635B5003E8F3F /* ToyRobotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToyRobotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC18C2A327E635B5003E8F3F /* ToyRobotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyRobotUITests.swift; sourceTree = "<group>"; };
 		CC18C2A527E635B5003E8F3F /* ToyRobotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyRobotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC18C2C227E63FEC003E8F3F /* Global.Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.Enums.swift; sourceTree = "<group>"; };
+		CC18C2C427E640DB003E8F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CC18C2C727E6C197003E8F3F /* ToyRobotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyRobotView.swift; sourceTree = "<group>"; };
+		CC18C2C927E6D1E2003E8F3F /* ToyRobotControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyRobotControler.swift; sourceTree = "<group>"; };
+		CC18C2CB27E6EB4C003E8F3F /* BoardLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,14 +103,13 @@
 		CC18C27E27E635B2003E8F3F /* ToyRobot */ = {
 			isa = PBXGroup;
 			children = (
-				CC18C27F27E635B2003E8F3F /* AppDelegate.swift */,
-				CC18C28127E635B2003E8F3F /* GameScene.sks */,
-				CC18C28327E635B2003E8F3F /* Actions.sks */,
-				CC18C28527E635B2003E8F3F /* GameScene.swift */,
-				CC18C28727E635B2003E8F3F /* GameViewController.swift */,
-				CC18C28927E635B2003E8F3F /* Main.storyboard */,
+				CC18C2C427E640DB003E8F3F /* Info.plist */,
+				CC18C2C127E63FC9003E8F3F /* Global */,
+				CC18C2B527E63C21003E8F3F /* Sources */,
 				CC18C28C27E635B5003E8F3F /* Assets.xcassets */,
+				CC18C27F27E635B2003E8F3F /* AppDelegate.swift */,
 				CC18C28E27E635B5003E8F3F /* LaunchScreen.storyboard */,
+				CC18C28927E635B2003E8F3F /* Main.storyboard */,
 			);
 			path = ToyRobot;
 			sourceTree = "<group>";
@@ -129,6 +129,24 @@
 				CC18C2A527E635B5003E8F3F /* ToyRobotUITestsLaunchTests.swift */,
 			);
 			path = ToyRobotUITests;
+			sourceTree = "<group>";
+		};
+		CC18C2B527E63C21003E8F3F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CC18C2C727E6C197003E8F3F /* ToyRobotView.swift */,
+				CC18C2C927E6D1E2003E8F3F /* ToyRobotControler.swift */,
+				CC18C2CB27E6EB4C003E8F3F /* BoardLayer.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CC18C2C127E63FC9003E8F3F /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				CC18C2C227E63FEC003E8F3F /* Global.Enums.swift */,
+			);
+			path = Global;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,10 +254,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC18C28B27E635B2003E8F3F /* Main.storyboard in Resources */,
-				CC18C28227E635B2003E8F3F /* GameScene.sks in Resources */,
 				CC18C28D27E635B5003E8F3F /* Assets.xcassets in Resources */,
 				CC18C29027E635B5003E8F3F /* LaunchScreen.storyboard in Resources */,
-				CC18C28427E635B2003E8F3F /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC18C28627E635B2003E8F3F /* GameScene.swift in Sources */,
-				CC18C28827E635B2003E8F3F /* GameViewController.swift in Sources */,
+				CC18C2CA27E6D1E2003E8F3F /* ToyRobotControler.swift in Sources */,
+				CC18C2C327E63FEC003E8F3F /* Global.Enums.swift in Sources */,
 				CC18C28027E635B2003E8F3F /* AppDelegate.swift in Sources */,
+				CC18C2CC27E6EB4C003E8F3F /* BoardLayer.swift in Sources */,
+				CC18C2C827E6C197003E8F3F /* ToyRobotView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,11 +463,15 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X7VBM444FY;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ToyRobot/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Toy Robot";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,7 +482,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -473,11 +495,15 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X7VBM444FY;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ToyRobot/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Toy Robot";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -488,7 +514,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
