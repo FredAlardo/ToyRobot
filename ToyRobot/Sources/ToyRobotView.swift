@@ -140,6 +140,7 @@ class ToyRobotView: UIViewController {
 			reportText.text.append("\n> \(_text)")
 		}
 		clearReport.isHidden = reportText.text.isEmpty
+		consoleInput.text = nil
 	}
 
 }
@@ -162,7 +163,7 @@ extension ToyRobotView: ToyRobotControlerDelegate {
 	}
 	
 	func place() {
-		updateReport("PLACE")
+		updateReport("PLACE \(toyRobotControler.shipPosition!.x), \(toyRobotControler.shipPosition!.y), \(toyRobotControler.face.rawValue)")
 		updateFacing()
 		board.placeShip(position: toyRobotControler.shipPosition!, ship: toyRobotControler.shipType, face: toyRobotControler.face)
 	}
