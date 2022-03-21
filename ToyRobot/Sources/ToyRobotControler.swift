@@ -38,7 +38,6 @@ class ToyRobotControler {
 	func reset() {
 		face = .North
 		shipPosition = nil
-		shipType = .Blue
 	}
 	
 	func processCommand(_ command: String?) {
