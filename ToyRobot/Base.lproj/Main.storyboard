@@ -486,14 +486,14 @@
                         <viewLayoutGuide key="safeArea" id="BFv-L9-FVi"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="sf3-Hg-9lN" firstAttribute="height" secondItem="BFv-L9-FVi" secondAttribute="height" id="6Em-md-kjf"/>
                             <constraint firstItem="sf3-Hg-9lN" firstAttribute="width" secondItem="BFv-L9-FVi" secondAttribute="width" id="9lE-to-ZZr"/>
                             <constraint firstItem="FZg-fH-QcM" firstAttribute="centerY" secondItem="BFv-L9-FVi" secondAttribute="centerY" id="9rL-Ey-lkc"/>
                             <constraint firstItem="sf3-Hg-9lN" firstAttribute="centerY" secondItem="BFv-L9-FVi" secondAttribute="centerY" id="AhG-eA-Wx8"/>
+                            <constraint firstItem="sf3-Hg-9lN" firstAttribute="height" secondItem="BFv-L9-FVi" secondAttribute="height" id="HxN-20-mNt"/>
                             <constraint firstItem="FZg-fH-QcM" firstAttribute="centerX" secondItem="BFv-L9-FVi" secondAttribute="centerX" id="Iks-up-7D3"/>
+                            <constraint firstItem="FZg-fH-QcM" firstAttribute="height" secondItem="BFv-L9-FVi" secondAttribute="height" id="XAv-Lb-WHt"/>
                             <constraint firstItem="FZg-fH-QcM" firstAttribute="width" secondItem="BFv-L9-FVi" secondAttribute="width" id="Xc1-3O-2sC"/>
                             <constraint firstItem="sf3-Hg-9lN" firstAttribute="centerX" secondItem="BFv-L9-FVi" secondAttribute="centerX" id="vJX-uo-jZr"/>
-                            <constraint firstItem="FZg-fH-QcM" firstAttribute="height" secondItem="BFv-L9-FVi" secondAttribute="height" id="yIc-ff-3Fl"/>
                         </constraints>
                     </view>
                     <connections>
