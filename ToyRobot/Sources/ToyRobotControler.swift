@@ -36,7 +36,6 @@ class ToyRobotControler {
 	}
 	
 	func reset() {
-		face = .North
 		shipPosition = nil
 	}
 	

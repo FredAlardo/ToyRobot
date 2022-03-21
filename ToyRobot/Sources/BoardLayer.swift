@@ -7,7 +7,6 @@
 
 import Foundation
 import UIKit
-import GLKit
 
 class BoardLayer: CALayer {
 	private var grid: [CALayer] = []
@@ -27,8 +26,7 @@ class BoardLayer: CALayer {
 		parentImg.layer.borderColor = UIColor.link.cgColor
 		parentImg.layer.cornerRadius = 10
 		parentImg.layer.addSublayer(self)
-		setupGridLayout()
-		setupRocketLayout()
+		setupLayout()
 	}
 	
 	func reset() {
@@ -36,6 +34,11 @@ class BoardLayer: CALayer {
 		isPlaced = false
 		shipType = .Blue
 		shipLayer.contents = nil
+	}
+	
+	private func setupLayout() {
+		setupGridLayout()
+		setupRocketLayout()
 	}
 	
 	func setupRocketLayout() {

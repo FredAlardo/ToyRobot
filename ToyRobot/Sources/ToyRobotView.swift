@@ -27,19 +27,22 @@ class ToyRobotView: UIViewController {
 		toyRobotControler.delegate = self
 		consoleInput.delegate = self
 		consoleInput.becomeFirstResponder()
-		updateReport(nil, clear: true)
-		board = BoardLayer(boardImageView)
-		initialise()
-		boardImageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(layerTap(_:))))
 	}
 	
+	override func viewDidAppear(_ animated: Bool) {
+		updateReport(nil, clear: true)
+		board = BoardLayer(boardImageView)
+		boardImageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(layerTap(_:))))
+		initialise()
+	}
+		
 	@objc func layerTap(_ sender: UITapGestureRecognizer) {
 		guard sender.state == .ended, let tappedView = sender.view else { return }
 
 		let location = sender.location(in: tappedView)
 		let hitTestLocation = tappedView.layer.superlayer!.convert(location, from: tappedView.layer)
 		if let layer = tappedView.layer.hitTest(hitTestLocation) {
-			print("Hit test returned <\(layer.name ?? "unknown")> with frame \(layer.frame)")
+			// print("Hit test returned <\(layer.name ?? "unknown")> with frame \(layer.frame)")
 			if let name = layer.name, toyRobotControler.shipPosition == nil {
 				let values = name.split(separator: ":")
 				toyRobotControler.place(position: (x: Int(values[0]) ?? 0, y: Int(values[1]) ?? 0), face: toyRobotControler.face)

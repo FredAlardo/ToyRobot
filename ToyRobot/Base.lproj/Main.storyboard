@@ -38,7 +38,7 @@
                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="U82-Ye-8iy">
                                                                 <rect key="frame" x="0.0" y="0.0" width="228.5" height="231.5"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <mutableString key="text">Commands: &gt; PLACE X,Y,ORIENTATION  Will put the ship in position X,Y and facing NORTH, SOUTH, EAST or WEST.  &gt; MOVE  Will move one unit forward. &gt; LEFT or RIGHT Will rotate 90 degrees in the specified direction. &gt; REPORT Will announce the X,Y and orientation of the robot.</mutableString>
+                                                                <string key="text">Commands: &gt; PLACE X,Y,ORIENTATION  Will put the ship in position X,Y and facing NORTH, SOUTH, EAST or WEST.  &gt; MOVE  Will move one unit forward. &gt; LEFT or RIGHT Will rotate 90 degrees in the specified direction. &gt; REPORT Will announce the X,Y and orientation of the robot.</string>
                                                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -469,15 +469,15 @@
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstItem="H7z-h3-4Hp" firstAttribute="trailing" secondItem="kgH-kC-qhJ" secondAttribute="trailing" id="4jm-n4-yDr"/>
                                             <constraint firstItem="kgH-kC-qhJ" firstAttribute="width" secondItem="AnI-0Q-KAU" secondAttribute="width" multiplier="0.67" id="4pb-eQ-t4U"/>
                                             <constraint firstItem="Bmb-wo-QlD" firstAttribute="width" secondItem="AnI-0Q-KAU" secondAttribute="width" multiplier="0.8" id="5nD-Qo-vii"/>
+                                            <constraint firstItem="H7z-h3-4Hp" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="AnI-0Q-KAU" secondAttribute="leading" constant="20" symbolic="YES" id="65C-7r-GXb"/>
+                                            <constraint firstItem="H7z-h3-4Hp" firstAttribute="top" secondItem="kgH-kC-qhJ" secondAttribute="top" id="Ar7-se-jqP"/>
                                             <constraint firstItem="Bmb-wo-QlD" firstAttribute="height" secondItem="AnI-0Q-KAU" secondAttribute="height" multiplier="0.8" id="BEr-vz-5q6"/>
-                                            <constraint firstItem="H7z-h3-4Hp" firstAttribute="trailing" secondItem="kgH-kC-qhJ" secondAttribute="trailing" id="M65-3D-KXu"/>
                                             <constraint firstItem="Bmb-wo-QlD" firstAttribute="centerX" secondItem="AnI-0Q-KAU" secondAttribute="centerX" id="NEb-us-fMp"/>
                                             <constraint firstItem="kgH-kC-qhJ" firstAttribute="centerX" secondItem="AnI-0Q-KAU" secondAttribute="centerX" id="NY2-48-rul"/>
                                             <constraint firstItem="kgH-kC-qhJ" firstAttribute="centerY" secondItem="AnI-0Q-KAU" secondAttribute="centerY" id="Opq-kI-TfK"/>
-                                            <constraint firstItem="H7z-h3-4Hp" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="AnI-0Q-KAU" secondAttribute="leading" constant="240" id="PBq-9I-1le"/>
-                                            <constraint firstItem="H7z-h3-4Hp" firstAttribute="top" secondItem="kgH-kC-qhJ" secondAttribute="top" id="czg-7Z-xYM"/>
                                             <constraint firstItem="Bmb-wo-QlD" firstAttribute="centerY" secondItem="AnI-0Q-KAU" secondAttribute="centerY" id="ja5-81-kzG"/>
                                             <constraint firstItem="kgH-kC-qhJ" firstAttribute="height" secondItem="AnI-0Q-KAU" secondAttribute="height" multiplier="0.72" id="yZf-PA-S1H"/>
                                         </constraints>
