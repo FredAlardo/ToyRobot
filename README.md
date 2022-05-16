@@ -1,5 +1,7 @@
 # ToyRobot
 
+**This sample project needs to be added to Xcode and run through an iPad simulator**
+
 ## Scenario
 Create a library that can read in commands of the following form:
 * PLACE X, Y, DIRECTION
